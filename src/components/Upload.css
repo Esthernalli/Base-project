@@ -1,0 +1,71 @@
+/* Centering the Upload component vertically and horizontally */
+.upload-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 60px); /* Adjust if you have a fixed-height header */
+  width: 100%;
+  max-width: 600px; /* Optional: set a max-width */
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff; /* Optional: change background color */
+  border-radius: 8px; /* Optional: add border-radius */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: add shadow */
+  text-align: center; /* Center text inside the container */
+}
+
+.upload-container h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.upload-container p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.upload-container button {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #5850e4; /* Button color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.upload-container button:hover {
+  background-color: #3a40b3; /* Darker button color on hover */
+}
+/* Upload.css */
+.upload-container {
+  text-align: center;
+}
+
+.upload-container h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.upload-container p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.upload-container button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #5850e4;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.upload-container button:hover {
+  background-color: #4285f4;
+}

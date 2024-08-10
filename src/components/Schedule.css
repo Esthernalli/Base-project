@@ -1,0 +1,12 @@
+.schedule-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  .schedule-content {
+    max-width: 800px;
+  }
+  

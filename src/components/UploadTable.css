@@ -1,0 +1,42 @@
+/* src/components/UploadTable.css */
+.upload-table-container {
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .file-input {
+    display: block;
+    margin-bottom: 20px;
+  }
+  
+  .file-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .file-table th, .file-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .file-table th {
+    background-color: #5850e4;
+    color: white;
+  }
+  
+  .remove-button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .remove-button:hover {
+    background-color: #c0392b;
+  }
+  

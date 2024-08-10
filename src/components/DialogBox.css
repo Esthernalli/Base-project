@@ -1,0 +1,41 @@
+/* src/components/DialogBox.css */
+.dialog-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .dialog-box {
+    background: #fff;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 800px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dialog-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .dialog-close {
+    background: transparent;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .dialog-content {
+    max-height: 400px;
+    overflow-y: auto;
+  }
+  

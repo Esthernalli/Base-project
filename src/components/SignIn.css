@@ -1,0 +1,279 @@
+/* Add this to import the font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap');
+
+.signin-container {
+  display: flex;
+  height: 100vh;
+}
+
+.left-side {
+  width: 50%;
+  padding: 40px;
+  background-color: #5850e4;
+  position: relative;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.right-side {
+  width: 50%;
+  padding: 40px;
+  background-color: #111;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: #fff;
+}
+
+.left-side .logo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.circle::before {
+  content: '';
+  width: 20px;
+  height: 20px;
+  background-color: #5850e4;
+  border-radius: 50%;
+}
+
+.left-side h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.mode-switch {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 25px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.switch label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ccc;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.switch label::before {
+  position: absolute;
+  content: '';
+  top: 3px;
+  left: 3px;
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+.switch input:checked + label {
+  background-color: #5850e4;
+}
+
+.switch input:checked + label::before {
+  transform: translateX(22px);
+}
+
+.left-side-img {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.right-side h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.right-side p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.buttons button {
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.google {
+  background-color: #4285f4;
+  color: #fff;
+}
+
+.google img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.apple {
+  background-color: #000;
+  color: #fff;
+}
+
+.apple img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.input-field {
+  margin-bottom: 15px;
+}
+
+.input-field label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.input-field input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #222;
+  color: #fff;
+  font-size: 16px;
+}
+
+.forgot-password {
+  display: block;
+  margin-bottom: 15px;
+  color: #5850e4;
+  text-decoration: none;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}
+
+button[type="submit"] {
+  background-color: #5850e4;
+  color: #fff;
+  padding: 12px 25px;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #4285f4;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.social-links a {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 20px;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #5850e4;
+}
+.left-side-img {
+  width: 80%;
+  height: auto;
+  /*border-radius: 0px;/
+  /* Add margin to the right to move the image */
+  margin-right: 80px; /* Adjust the value as needed */
+}
+.logo p {
+  font-size: 30px; /* Make the font size large */
+  font-weight: 700; /* Use bold weight */
+  font-family: 'Roboto', sans-serif; /* Use the chosen Google Font */
+  color: #fff; /* Text color */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Optional text shadow for added emphasis */
+  letter-spacing: 2px; /* Add spacing between letters */
+}
+/* Apply the Poppins font to the whole document */
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Style for the Base text */
+.logo p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 32px; /* Adjust size as needed */
+  font-weight: 700; /* Bold font weight */
+  color: #fff; /* Adjust color as needed */
+}
+
+/* Other CSS styling */
+.left-side h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: 600; /* Semi-bold font weight */
+}
+
+.right-side h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  font-weight: 700; /* Bold font weight */
+}
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .logo p {
+      font-size: 28px;
+  }
+
+  .right-side h1 {
+      font-size: 28px;
+  }
+
+  .left-side h2 {
+      font-size: 20px;
+  }
+}

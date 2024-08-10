@@ -1,0 +1,6 @@
+.dashboard-container {
+  margin-left: 250px; /* Adjust this value based on the width of your sidebar */
+  padding: 20px;
+  height: 100vh;
+  background-color: #111; /* Ensure the background color matches the rest of your design */
+}

@@ -1,0 +1,63 @@
+.app {
+  display: flex;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  overflow: auto;
+}
+
+.signin-container,
+.schedule-container,
+.calendar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.signin-container .signin-content,
+.schedule-content,
+.calendar-content {
+  max-width: 800px;
+  text-align: center;
+}
+/* App.css */
+.app {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 250px; /* Adjust the width as needed */
+  background-color: #333; /* Example background color */
+  color: #fff;
+  position: fixed;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.main-content {
+  margin-left: 250px; /* Match the sidebar width */
+  width: calc(100% - 250px); /* Adjust width to fill remaining space */
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4f4; /* Background color for main content */
+  min-height: 100vh;
+}
+
+.main-content h1,
+.main-content p,
+.main-content button {
+  margin: 0;
+  text-align: center;
+}
+
+.center-content {
+  max-width: 600px; /* Limit the width of centered content */
+  width: 100%;
+}
+
